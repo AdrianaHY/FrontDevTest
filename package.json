@@ -1,0 +1,24 @@
+{
+  "name": "adriana-cuatrouno",
+  "version": "1.0.0",
+  "description": "Mi nombre es Luz Adriana Hernández Yáñez",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianaHY/FrontDevTest.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "geolocation"
+  ],
+  "author": "AdrianaHY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianaHY/FrontDevTest/issues"
+  },
+  "homepage": "https://github.com/AdrianaHY/FrontDevTest#readme"
+}

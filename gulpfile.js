@@ -17,7 +17,7 @@ gulp.task('CSS', function(){
     outputStyle:'compressed'
   }))
   .on('error', sass.logError)
-  .pipe(gulp.dest('./public/assets/js'))
+  .pipe(gulp.dest('./public/assets/css'))
 });
 
 //esta tarea procesa los archivos js
@@ -50,6 +50,7 @@ gulp.task('css-watch', ['CSS'], function(done){
   done();
 });
 
+
 //Para levantar el servidor
 gulp.task('serve', function(){
   browserSync.init({
@@ -60,5 +61,5 @@ gulp.task('serve', function(){
   //para revisar los cambios y actualizar
   gulp.watch(rutas.html, ['HTML', 'html-watch']);
   gulp.watch(rutas.scss, ['CSS', 'css-watch']);
-  gulp.watch(rutas.js, ['Js', 'js-watch']);
+  gulp.watch(rutas.js, ['JS', 'js-watch']);
 })

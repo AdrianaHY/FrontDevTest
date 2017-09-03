@@ -1,0 +1,36 @@
+@import "variables";
+
+body{
+  padding:0;
+  margin:0;
+  background: #9FA6D1;
+}
+
+nav{
+  background: $white-color;
+}
+
+.blue-typo{
+  color:$blue-color;
+}
+
+#logo{
+  width: 30%;
+  margin-top: 2%;
+  margin-left: 10%;
+  padding-left: 2%;
+}
+#logo2{
+  width: 50%;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+h3{
+  font-family: $font-family;
+  color:$white-color;
+  text-align: center;
+}
+
+#map{
+  height: 315px;
+}

@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/AdrianaHY/FrontDevTest/issues"
   },
-  "homepage": "https://github.com/AdrianaHY/FrontDevTest#readme"
+  "homepage": "https://github.com/AdrianaHY/FrontDevTest#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^3.1.0"
+  }
 }

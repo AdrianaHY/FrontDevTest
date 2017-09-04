@@ -12,6 +12,19 @@ var initMap = function(){
        });
 
 }
+
+//PALABRA PALÍNDROMA
+var str= "";
+var strSeparado = str.split("");
+var strReves = strSeparado.reverse()
+
+function palindromo(str){
+  if(strSeparado === strReves){
+    console.log("Tu palabra es palíndroma!")
+  }else{
+    console.log("Lo siento, introduce otra palabra :()")
+  }
+}
 // var map;
 // var infowindow;
 

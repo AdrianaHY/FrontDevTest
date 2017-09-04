@@ -52,6 +52,8 @@ gulp.task('css-watch', ['CSS'], function(done){
 
 
 //Para levantar el servidor
+//esta tarea hará todas las atreas anteriores,
+//sin necesidad de estar ejecutando una por una
 gulp.task('serve', function(){
   browserSync.init({
     server:{
